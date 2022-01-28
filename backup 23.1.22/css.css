@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+p, footer, label, .buttonsend, .h2-contact, .h2-about{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;}
+
+li{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+body{
+	display: flex;
+	height: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header{
+	width: 100%;
+	background-color: #2C3E50;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	justify-content: space-between;
+}
+
+nav ul{
+	padding-right: 5%;
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 130px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	}
+
+
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #ADDAEF;
+}
+
+
+.mylogo{
+	margin-left: 1rem;
+	height: auto;
+	width: auto;
+}
+
+
+.myphoto{
+	float: right;
+	clear: right;
+	margin-right: 5%;
+	width: 400px;
+	height: auto;
+	border-radius: 100px;
+}
+
+
+.container-about, .container-contact, .container-work{
+	flex: 1;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+	background-color: #e7e1d6;
+	/*background-color: #c1933f;*/
+}
+
+
+.container-about p, h2{
+	text-align: left;
+	color: #171717;
+}
+
+.row{
+	width:100%;
+}
+
+form, .h2-contact{
+	text-align: left;
+}
+
+form{
+	min-width: 200px;
+}
+
+.h2-contact{
+	font-size: 2.25em;
+	color: #171717;
+	/*color: #999*/;
+}
+
+fieldset div{
+	display: block;	
+
+}
+
+label, input, textarea{
+	display: block;
+	width: 70%;
+	margin-top: 10px;
+}
+
+textarea{
+	min-height: 8em;
+}
+
+.buttonsend{
+	margin-top: 10px;
+	width: 8em;
+	background-color: #171717;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+.buttonsend:hover{
+	background-color: #206c6c;
+}
+
+footer{
+	color: #ffffff;
+	background-color: #171717;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+
+
+@media screen and (min-width: 500px){
+	.container-contact{
+		display: block;
+		padding-left: 5em;
+	}
+	label, input, textarea{
+		width: 80%;
+	}
+}
