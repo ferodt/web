@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-p, footer, label, .buttonsend, .h2-contact, .h2-about, .h2-gallery, .contactabout{
+p, footer, label, .buttonsend, .h2-contact, .h2-about, .h2-gallery, .contactabout, .linkedin{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;}
 
@@ -95,10 +95,15 @@ header{
 	color: #171717;
 }*/
 
-.contactabout{
+.contactabout, .linkedin{
 	text-decoration: none;
-	padding: 8px 20px 8px 20px;
+	padding: 8px 18px 8px 18px;
 }
+
+.linkedin{
+	color: #ffffff;
+}
+
 
 .eachservice{
 	border: 2px solid black;
@@ -218,7 +223,7 @@ textarea{
 	min-height: 8em;
 }
 
-.buttonsend, .contactabout{
+.buttonsend, .contactabout, .linkedin{
 	margin-top: 10px;
 	width: 8em;
 	background-color: #171717;
@@ -226,7 +231,7 @@ textarea{
 	border-radius: 10px;
 }
 
-.buttonsend:hover, .contactabout:hover{
+.buttonsend:hover, .contactabout:hover, .linkedin:hover{
 	background-color: #206c6c;
 	color: #ffffff;
 }
