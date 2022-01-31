@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-p, footer, label, .buttonsend, .h2-contact, .h2-about, .h2-gallery, .contactabout, .linkedin{
+p, footer, label, .buttonsend, .contactabout, .linkedin{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;}
 
-li{
+li, .h2-contact, .h2-about, .h2-gallery{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 }
@@ -32,7 +32,7 @@ header{
 
 .navbar-toggler-icon{
 	margin-right: 1.5em;
-	color: white;
+	color: #ffffff;
 
 }
 
@@ -82,7 +82,7 @@ header{
 	padding-top: 1em;
 	padding-bottom: 2em;
 	text-align: center;
-	background-color: #e7e1d6;
+	background-color: #e1e1e1;
 	/*background-color: #c1933f;*/
 }
 
@@ -105,17 +105,20 @@ header{
 }
 
 
-.eachservice{
-	border: 2px solid black;
-	border-radius: 10px;
-	line-height: 30px;
-	padding-top: 1em;
-	width: 70%;
+.eachservice>i{
+	border-radius: 50px;
+	padding: 10px;
+	line-height: 49px;
 	margin: auto;
 	margin-bottom: 10px;
-	background-color: #ededed;
+	background-color: #2c3e50;
+	min-width: 70px;
+	min-height: 70px;
+	color: #ffffff;
 
 }
+
+/*background-color:#4cddf3*/
 
 .eachservice>p{
 	text-align: center;
@@ -125,14 +128,26 @@ header{
 
 .h2-about{
 	margin-bottom: 0.75em;
+	font-size: 2em;
+	color: #171717;	
+}
+
+.h2-about{
+	text-decoration: underline;
+	text-decoration-color: #d3d3d3;
+	margin-bottom: 30px;
 }
 
 .services> .h2-about{
 	padding-top: 0.5em;
 	text-align: center;
+	font-size: 2.25em;
+	color: #171717;
 }
 .h2-gallery{
 	text-align: center;
+	font-size: 2.25em;
+	color: #171717;
 }
 
 form, .h2-contact{
@@ -145,7 +160,7 @@ form{
 
 .gallery{
 	min-height: 100vh;
-	background-color: #fffaaa;
+	background-color: #e1e1e1;
 	padding: 25px;
 }
 
@@ -260,6 +275,8 @@ footer{
 	footer{
 		font-size: 0.9em;
 	}
+	.gallery{
+	padding: 20px;
 }
 
 @media screen and (min-width: 500px){
